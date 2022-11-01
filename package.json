@@ -1,0 +1,25 @@
+{
+  "name": "basicrestify",
+  "version": "1.0.0",
+  "description": "Basic Restify Server",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [
+    "Restify",
+    "Server",
+    "NodeJS",
+    "Fahmi"
+  ],
+  "author": "fahmiihzas",
+  "license": "ISC",
+  "dependencies": {
+    "n": "^9.0.0",
+    "restify": "^8.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
